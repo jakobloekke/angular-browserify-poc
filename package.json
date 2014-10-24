@@ -1,0 +1,14 @@
+{
+  "name": "angular-browserify-poc",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.1.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "html2js-browserify": "0.0.2"
+  },
+  "browser": {
+    "angular": "./src/common/angular-index.js"
+  }
+}
